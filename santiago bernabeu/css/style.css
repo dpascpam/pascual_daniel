@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+
+.barra{
+    overflow: hidden;
+    text-align: center;
+    background-color: #AF994F;
+}
+.barra a{
+    font-size: 1.0em;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    padding:  1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+    
+}
+.barra a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.barra .icon{
+    display: none;
+}
+
+@media only screen and (max-width:778px){
+    .barra a{
+        display: none;
+    }
+    .barra .icon{
+        display: block;
+        float: right;
+    }
+}
+@media only screen and (max-width:778px){
+    .barra.responsive{
+        position: relative;
+    }
+    .barra.responsive .icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .barra.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.botoninicio{
+    position: fixed; 
+    color: #AF994F;
+    border: solid;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 100%; 
+    width: 50px; 
+    bottom: 20px; 
+    right: 20px; 
+    text-align: center;
+}
+
+.centrar{
+    padding: 0.5em;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url(../fuentes/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'textos';
+    src: url(../fuentes/Abel-Regular.ttf);
+}
+
+.section1 {
+    background-color: #AF994F;
+}
+
+.section2 {
+    background-color: white;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.titulo {
+    font-family: 'titulo';
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3em;
+    color: #324068;
+}
+
+img {
+    max-width: 100%;
+}
+
+.imgtitulo{
+    text-align: center;
+    width: 100%;
+}
+
+.titulo2 {
+    font-family: 'titulo';
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2.5em;
+    color: black;
+}
+
+.container{
+    display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.imagen{
+    max-width: 70%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.textos{
+    font-family: 'textos';
+    text-align: center; 
+    font-size: 1.3em;
+}
+
+.flecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.flechaabajo{
+    max-width: 25%;
+    margin-top: 2%;
+}
+
+.final {
+    width: 100%;
+    flex-basis: 31%;
+    margin: auto;
+    margin-bottom: -20px;
+    margin-top: 2rem;
+    background-color: black;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    float: left;
+
+}
+
+#enlaces {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+
+}
+
+#nosotros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+
+}
+
+#primera {
+    margin-left: 250px;
+    margin-top: 67px;
+    justify-content: center;
+}
+
+

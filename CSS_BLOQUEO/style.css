@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(../fuentes/Kanit-SemiBold.ttf);
+}
+  
+body {
+    background-image: linear-gradient(to bottom, #AF994F, #432d80);
+    background-size: 100% 400%; /* Doble altura para permitir desplazamiento */
+    animation: moveGradient 5s linear infinite alternate; /* Velocidad y repetición de la animación */
+    height: 100vh;
+}
+
+.divgrande{
+    background-color: #AF994F;
+    height: auto;
+    width: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 1.2em;
+    float: left;
+    padding-bottom: 1%;
+    font-family: 'titulo';
+}    
+
+.divpequeño{
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.7em;
+    color: black;
+    padding: 3%;
+}
+
+.general{
+    padding: 6%;
+}
+.entrar{
+    background-color: #c2ad69;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 100%;
+}
+.entrar:hover{
+    background-color: #c2ad69;
+    transition: 2s;
+}
+.usuario{
+    margin-bottom: 10%;
+}
+
+.entrar{
+
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 0.3em;
+    margin: 2%;
+}
+.entrar a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+   
+}
+#crearsesion{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+    padding-bottom: 0%;
+}
+#botones .entrar .ejemplo{
+    color: red;
+}
+input{
+    width: 100%;
+    height: 2vh;
+    margin-top: 3%;
+}
+.usuario, .contrasena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    /* Estilos para el botón de inicio de sesión */
+    button[type="submit"] {
+        background-color: #c2ad69; 
+        color: white; 
+        border: none;
+        padding: 10px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        cursor: pointer; 
+        border-radius: 5px; 
+        font-family: 'titulo';
+    }
+    /* Estilos para el botón al pasar el cursor */
+
+    input[type="text"], input[type="password"] {
+        background-color: #AF994F;
+        padding: 7px; /* Espacio interno */
+        border: 1px solid #756737; /* Borde con color gris claro */
+        border-radius: 5px; /* Bordes redondeados */
+        font-size: 16px; /* Tamaño de fuente */
+        color: #333; /* Color del texto */
+        background-color: #AF994F;
+    }

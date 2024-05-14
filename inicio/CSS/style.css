@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.barra{
+    overflow: hidden;
+    text-align: center;
+    background-color: #AF994F;
+
+}
+.barra .usuario{
+    float: right;
+}
+.barra a{
+    font-size: 1.1em;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    padding:  1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+    
+}
+.barra a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.barra .icon{
+    display: none;
+}
+
+@media only screen and (max-width:778px){
+    .barra a{
+        display: none;
+    }
+    .barra .icon{
+        display: block;
+        float: right;
+    }
+}
+@media only screen and (max-width:778px){
+    .barra.responsive{
+        position: relative;
+    }
+    .barra.responsive .icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .barra.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+@font-face {
+    font-family: '';
+    src: url();
+}
+
+.fotoI{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;  
+    width: 60%;
+    border-radius: 10px;
+}
+
+.fotobelli{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.inicio div{
+    align-items: center;
+}
+.botoninicio{
+    position: fixed; 
+    color: #AF994F;
+    border: solid;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 100%; 
+    width: 50px; 
+    bottom: 20px; 
+    right: 20px; 
+    text-align: center;
+}
+.centrar{
+    padding: 0.5em;
+}
+.noticiabellingham{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.noticia img{
+    width: 100%;
+}
+.fotonoticia{
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+.noticias{
+    margin-bottom: 3%;
+    background-color: white;
+    
+}
+.noticia{
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 28%;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 3%;
+    
+}
+
+.titular{
+    text-align: center;
+    font-size: 1.5vw;
+}
+.final {
+    width: 100%;
+    flex-basis: 31%;
+    margin: auto;
+    margin-bottom: -20px;
+    margin-top: 2rem;
+    background-color: black;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    float: left;
+
+}
+
+#enlaces {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+
+}
+
+#nosotros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+
+}
+
+#primera {
+    margin-left: 250px;
+    margin-top: 67px;
+    justify-content: center;
+}
+
